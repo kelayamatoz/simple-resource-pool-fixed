@@ -1,5 +1,5 @@
 {
-  "name": "@kelayamatoz/simple-resource-pool",
+  "name": "simple-resource-pool-fixed",
   "version": "1.0.1",
   "description": "Simple generic resource pool",
   "author": "kelayamatoz <tzhao1309@gmail.com> (https://github.com/kelayamatoz)",
