@@ -1,20 +1,16 @@
 {
-  "name": "simple-resource-pool",
+  "name": "@kelayamatoz/simple-resource-pool",
   "version": "1.0.1",
   "description": "Simple generic resource pool",
-  "author": {
-    "name": "kelayamatoz",
-    "email": "tzhao1309@gmail.com",
-    "url": "https://github.com/kelayamatoz"
-  },
+  "author": "kelayamatoz <tzhao1309@gmail.com> (https://github.com/kelayamatoz)",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:kelayamatoz/simple-resource-pool-fixed.git"
+    "url": "git+ssh://git@github.com/kelayamatoz/simple-resource-pool-fixed.git"
   },
   "bugs": {
-    "email": "tzhao1309@gmail.com",
-    "url": "https://github.com/kelayamatoz/simple-resource-pool-fixed/issues"
+    "url": "https://github.com/kelayamatoz/simple-resource-pool-fixed/issues",
+    "email": "tzhao1309@gmail.com"
   },
   "keywords": [
     "pool",
@@ -33,7 +29,6 @@
     "jasmine": "^3.1.0",
     "ts-loader": "^4.3.0",
     "ts-node": "^6.0.3",
-    "tslint": "^5.9.1",
     "typescript": "^2.7.2",
     "uglifyjs-webpack-plugin": "^1.2.5",
     "webpack": "^4.8.3",
@@ -41,12 +36,14 @@
   },
   "scripts": {
     "test": "ts-node --project ./tsconfig.test.json node_modules/jasmine/bin/jasmine",
-    "lint": "tslint --project ./tsconfig.json",
     "build": "webpack",
     "prepublishOnly": "npm run lint && npm run test && npm run build"
   },
   "types": "./index.d.ts",
   "engines": {
     "node": ">=10.1.0"
+  },
+  "directories": {
+    "lib": "lib"
   }
 }
