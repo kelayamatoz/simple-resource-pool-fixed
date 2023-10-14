@@ -1,12 +1,16 @@
 # simple-resource-pool
-A simple resource pool implementation in typescript.
+The original simple-resource-pool npm package can trigger the following error in its index.d.ts file:
+```
+Type annotation cannot appear on a constructor declaration.ts(1093)
+```
+This repo fixed the type annotation issue and repackged the original simple-resource-pool npm package as a new npm package.
 
 ## Installation
 
 To use with node or a bundler:
 
 ```bash
-$ npm install resource-pool
+$ npm i simple-resource-pool
 ```
 
 Directly in the browser:

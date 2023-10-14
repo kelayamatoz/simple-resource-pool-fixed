@@ -3,18 +3,18 @@
   "version": "1.0.1",
   "description": "Simple generic resource pool",
   "author": {
-    "name": "Daniel Lugo",
-    "email": "danlugo92@gmail.com",
-    "url": "http://twitter.com/danlugo92"
+    "name": "kelayamatoz",
+    "email": "tzhao1309@gmail.com",
+    "url": "https://github.com/kelayamatoz"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:danlugo92/resource-pool.git"
+    "url": "git+ssh://git@github.com:kelayamatoz/simple-resource-pool-fixed.git"
   },
   "bugs": {
-    "email": "danlugo92@gmail.com",
-    "url": "https://github.com/danlugo92/simple-resource-pool/issues"
+    "email": "tzhao1309@gmail.com",
+    "url": "https://github.com/kelayamatoz/simple-resource-pool-fixed/issues"
   },
   "keywords": [
     "pool",
@@ -25,7 +25,7 @@
   ],
   "main": "lib/simple-resource-pool.js",
   "unpkg": "lib/simple-resource-pool.min.js",
-  "homepage": "https://github.com/danlugo92/simple-resource-pool#readme",
+  "homepage": "https://github.com/kelayamatoz/simple-resource-pool-fixed#readme",
   "devDependencies": {
     "@types/jasmine": "^2.8.7",
     "@types/webpack": "^4.4.0",
