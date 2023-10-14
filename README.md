@@ -1,9 +1,11 @@
-# simple-resource-pool
+# simple-resource-pool-fixed
 The original simple-resource-pool npm package can trigger the following error in its index.d.ts file:
 ```
 Type annotation cannot appear on a constructor declaration.ts(1093)
 ```
 This repo fixed the type annotation issue and repackged the original simple-resource-pool npm package as a new npm package.
+
+The original npm package page can be found [here](https://www.npmjs.com/package/simple-resource-pool?activeTab=readme).
 
 ## Installation
 
